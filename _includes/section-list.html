@@ -1,0 +1,43 @@
+{% for item in include.content %}
+  <div class="row clearfix layout layout-{{ item.layout | default: 'left' }} border-{{ item.border | default: 'no' }}">
+
+    {% if item.image %}
+      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12
+                  {% if item.layout == 'right' %}order-sm-2{% endif %}">
+        <div class="item-image">
+          <img src="{{ item.image }}" alt="{{ item.title | escape }}">
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="col-xs-12 {% if item.image %}col-sm-8 col-md-9{% else %}col-sm-12 col-md-12{% endif %} col-print-12 item-wrapper
+                {% if item.layout == 'right' %}order-sm-1{% endif %}">
+      <div class="item-text">
+        <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+        {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+        {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+        {%- if item.link -%}
+          {% include a.html href=item.link class="link" %}
+            {{ item.link_text | default: item.link }}
+          </a>
+        {%- endif -%}
+
+        <p class="no-print aditional-links">
+          {% for link in item.additional_links %}
+            {% include a.html href=link.url class="" %}
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            </a>
+          {% endfor %}
+        </p>
+
+        {%- if item.quote -%}
+          <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
+
+        {{ item.description | strip | markdownify }}
+      </div>
+    </div>
+
+  </div>
+{% endfor %}

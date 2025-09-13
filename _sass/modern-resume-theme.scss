@@ -1,0 +1,316 @@
+@import "base";
+@import "button";
+@import "type";
+@import "dark";
+@import "icons";
+
+.header-right p {
+  margin-bottom: 3px;
+}
+
+.header-right a{
+  color:inherit;
+  font-weight:500;
+}
+
+@media screen and (max-width: 767px) {
+  .header-container div{
+    text-align: center;
+  }
+
+  .header-right p {
+    text-align: center;
+  }
+
+  .header-left {
+    margin-top: 0px;
+  }
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat, no-repeat;
+  -moz-box-shadow: inset 0 0 20px #636161;
+  -webkit-box-shadow: inset 0 0 20px #636161;
+  box-shadow: inset 0 0 20px #636161;
+}
+
+.list-container {
+  h3 {
+    margin-bottom: 0;
+  }
+}
+
+.border-weak  {
+  padding-bottom: 8px;
+  border-bottom: dashed 1px #CCCCCC;
+}
+
+.layout {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+
+    p {
+      margin-bottom: 3px;
+      font-size: 1.6rem;
+      text-align: inherit;
+      font-weight: 300;
+
+      b {
+        font-weight: 500;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      text-align: center!important;
+
+      p {
+        text-align: center!important;
+      }
+    }
+
+    a {
+      color: inherit;
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .fa {
+      font-size: 2rem;
+    }
+
+    .link {
+      font-size: 1.5rem;
+    }
+
+    h4 {
+      margin-bottom: 0.1rem;
+      font-weight: 500;
+
+      @media print {
+        margin-bottom: 0.2rem;
+      }
+
+      a {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.layout-right {
+  flex-direction: row-reverse;
+}
+
+.layout-right, .layout-top-right {
+  .details {
+    text-align: right;
+  }
+}
+
+.layout-left, .layout-right {
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+
+  .details {
+    margin-bottom: 2rem;
+  }
+}
+
+.layout-top-middle, .layout-top, .layout-top-right {
+  flex-direction: column;
+
+  .details, .content {
+    width: 100%;
+  }
+}
+
+.layout-top-middle {
+  .details {
+    text-align: center;
+  }
+}
+
+.footer-container {
+  margin-top:100px;
+}
+
+.footer-container p {
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.footer-container a {
+  color: inherit;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.page-content {
+  padding: 0;
+}
+
+.contact a {
+  line-height: 50px;
+  margin-left: 30px;
+  color: #BBBBBB;
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.contact a:hover {
+  color: #4C4C4C;
+}
+
+p.quote {
+  font-size: 1.4rem;
+  font-style: italic;
+  padding: 1rem 2.5rem;
+  text-align: center;
+
+  @media print {
+    text-align: left;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Container for each project/experience item */
+.item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  /* Vertically center the image */
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Text column on the left */
+.item-text {
+  flex: 1;              /* Take up remaining space */
+}
+
+.item-image {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  height: 200px;             /* fixed column height */
+  overflow: hidden;          /* prevent overflow */
+}
+
+.item-image img {
+  max-height: 100%;          /* scale to fit height */
+  max-width: 100%;           /* prevent overflow */
+  object-fit: contain;       /* keep aspect ratio inside box */
+}
+
+
+/* Titles inside text column */
+.item-text h4 {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.item-text h4 a {
+  font-weight: 500;
+}
+
+/* Paragraphs inside text column */
+.item-text p {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.item-text p b {
+  font-weight: 500;
+}
+
+/* Links and icons */
+.item-text a {
+  color: inherit;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.item-text .link {
+  font-size: 1.5rem;
+}
+
+.item-text .fa {
+  font-size: 2rem;
+}
+
+/* Quote styling */
+.item-text p.quote {
+  font-size: 1.4rem;
+  font-style: italic;
+  padding: 1rem 2.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* Stack text and image vertically on small screens */
+  .item-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .item-image {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  height: 200px;             /* fixed column height */
+  overflow: hidden;          /* prevent overflow */
+}
+
+.item-image img {
+  max-height: 100%;          /* scale to fit height */
+  max-width: 100%;           /* prevent overflow */
+  object-fit: contain;       /* keep aspect ratio inside box */
+}
+
+
+  .item-text {
+    width: 100%;
+  }
+}
+
+/* Center the title */
+.item-text h4 {
+  text-align: center;
+}
+
+/* Center the main project link */
+.item-text .link {
+  display: block;        /* ensures centering works even if inline */
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+/* Center additional links (icons) */
+.item-text .aditional-links {
+  display: flex;
+  justify-content: center;   /* centers icons horizontally */
+  gap: 1rem;                 /* adds spacing between icons */
+  text-align: center;
+}
+
