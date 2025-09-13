@@ -35,7 +35,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   What excites me most is the challenge of designing AI-powered applications, mobile solutions, and optimization algorithms that make a real difference. Right now, I'm pursuing my Master's in Big Data and High-Performance Computing, and I'm proud to be part of the Scuola Ortogonale excellence program, which constantly pushes me to grow both academically and personally.
 
-  Beyond the classroom, I'm curious about how algorithms and data structures can scale to tackle real-world problems. For me, coding isn't just about efficiency—it's about creativity, problem-solving, and building something meaningful.
+  Beyond the classroom, I'm curious about how algorithms and data structures can scale to tackle real-world problems in the Big Data realm. For me, coding isn't just about efficiency: it's about creativity, problem-solving, and building something meaningful.
 
 content:
   - title: Projects # Title for the section
@@ -51,7 +51,9 @@ content:
             icon: fab fa-github
             url: github.com/FraVisox/AntElligence
         description: | # this will include new lines to allow paragraphs
-          Through the Scuola Ortogonale excellence program, Matteo Canton and I created a game-playing AI agent using the classic minimax algorithm with alpha-beta pruning. We also experimented with an advanced learning agent inspired by AlphaZero, aiming to push strategic gameplay further—though it didn’t achieve the same outstanding results. Our efforts earned our team second place in the Scuola Ortogonale championship, a rewarding experience that strengthened both my technical skills and teamwork.
+          Through the Scuola Ortogonale excellence program, Matteo Canton and I created a game-playing AI agent using the classic minimax algorithm with alpha-beta pruning. 
+          We also experimented with an advanced learning agent inspired by AlphaZero, aiming to push strategic gameplay further, although it didn't achieve the same outstanding results. 
+          Our efforts earned our team second place in the Scuola Ortogonale championship, a rewarding experience that strengthened both my technical skills and teamwork.
         
       - layout: right
         title: Fair K-Center Clustering Algorithms
@@ -62,12 +64,14 @@ content:
           - title:  FraVisox/FKC
             icon: fab fa-github
             url: github.com/FraVisox/FKC
-          - title:  Linke to the paper
-            icon: fab icon-arxiv
+          - title:  Link to the paper
+            icon: fa fa-file-text
             url: arxiv.org/abs/2503.05260
         description: | # this will include new lines to allow paragraphs
-          For my bachelor’s thesis, I focused on designing and optimizing clustering algorithms with an emphasis on both fairness and efficiency. I also conducted extensive performance benchmarking on large-scale datasets, work that contributed to the publication of a paper on the topic, which you can read here.
-          This project deepened my understanding of scalable data processing and the practical challenges of implementing fair AI systems.
+          For my bachelor's thesis, I focused on designing and optimizing clustering algorithms with an emphasis on both fairness and efficiency. 
+          I also conducted extensive performance benchmarking on large-scale datasets, work that contributed to the publication of a paper on the topic, which you can <a href="https://arxiv.org/abs/2503.05260">read here</a>.
+          This project deepened my understanding of scalable data processing and the practical challenges of implementing fairness in systems, while also introducing me to the world of experimental algorithmics, teaching me
+          how to design a scalable and efficient algorithms testing suite.
       
       - layout: right
         title: Android App integrated with Firebase
@@ -79,7 +83,9 @@ content:
             icon: fab fa-github
             url: github.com/FraVisox/step_by_step
         description: | # this will include new lines to allow paragraphs
-          I developed a real-time telemetry app that seamlessly integrates Firebase for data storage and analytics, while also managing local data with Room DB. This project allowed me to combine backend efficiency with real-time user-facing features, honing my skills in mobile app development and data management.
+          I developed a real-time telemetry app that seamlessly integrates Firebase for data storage and analytics, while also managing local data with Room DB. 
+          This project allowed me to combine backend efficiency with real-time user-facing features, honing my skills in mobile app development and data management,
+          while also gaining practical experience in Firebase integration.
 
       - layout: right
         title: Automated News Scraper and Analyzer
@@ -91,7 +97,9 @@ content:
             icon: fab fa-github
             url: github.com/FraVisox/eis-final
         description: | # this will include new lines to allow paragraphs
-          I built a web scraper to collect and analyze news articles from The Guardian, applying text analysis techniques to uncover key insights and emerging trends. This project strengthened my skills in data extraction, natural language processing, and turning raw information into actionable knowledge.
+          I built a web scraper to collect and analyze news articles from The Guardian, applying text analysis techniques to uncover key insights and emerging trends. 
+          This project strengthened my skills in data extraction, natural language processing, and turning raw information into actionable knowledge, while also increasing
+          my knowledge on how to build a scalable and well documented project.
 
       - layout: right
         title: Apache Spark Algorithm Development
@@ -103,7 +111,8 @@ content:
             icon: fab fa-github
             url: github.com/FraVisox/BigDataHw
         description: | # this will include new lines to allow paragraphs
-          I developed and optimized distributed data processing algorithms using Apache Spark, implementing parallelized computations to enhance scalability on large datasets. This experience gave me hands-on expertise in high-performance computing and the challenges of efficiently processing massive amounts of data.
+          I developed and optimized distributed data processing algorithms using Apache Spark, implementing parallelized computations to enhance scalability on large datasets. 
+          This experience gave me hands-on expertise in high-performance computing and the challenges of efficiently processing massive amounts of data.
 
       - layout: right
         title: NLP Zero-Shot Prompting for NER
@@ -115,19 +124,19 @@ content:
             icon: fab fa-github
             url: github.com/FraVisox/NLP-Project-NER
         description: | # this will include new lines to allow paragraphs
-          I explored and evaluated various strategies to improve Named Entity Recognition using zero-shot prompting with large language models. Drawing inspiration from recent research, I crafted and refined prompt-based techniques to push the boundaries of what these models can achieve. This project deepened my understanding of modern NLP approaches and the practical challenges of leveraging LLMs effectively.
+          I explored and evaluated various strategies to improve Named Entity Recognition using zero-shot prompting with large language models. 
+          Drawing inspiration from recent research, I crafted and refined prompt-based techniques to push the boundaries of what these models can achieve. 
+          This project deepened my understanding of modern NLP approaches and the practical challenges of leveraging LLMs effectively.
 
       - layout: right
         title: Chat-BasedWeb Application
-        link: github.com/FraVisox/First-Commit-Challenge
-        link_text: Project Repository
+        link: firstcommit.bendingspoons.com/
+        link_text: Challenge Website
         image: images/bending.png
-        additional_links:
-          - title:  FraVisox/First-Commit-Challenge
-            icon: fab fa-github
-            url: github.com/FraVisox/First-Commit-Challenge
         description: | # this will include new lines to allow paragraphs
-          I developed a full-stack proof of concept for a chat-based web application as part of the First Commit challenge at Bending Spoons, handling both frontend and backend development and adding extra features. This experience gave me hands-on practice in debugging, task prioritization, and collaborating effectively within a team.
+          I developed a full-stack proof of concept for a chat-based web application as part of the First Commit challenge at Bending Spoons, handling both frontend and backend development and adding extra features. 
+          This experience gave me hands-on practice in debugging, task prioritization, and collaborating effectively within a team. 
+          The project is not available due to privacy reasons.
 
       - layout: right
         title: AI-Based Solar Energy Predictor
@@ -139,7 +148,8 @@ content:
             icon: fab fa-github
             url: github.com/FraVisox/AI-Based-Solar-Energy-Predictor
         description: | # this will include new lines to allow paragraphs
-          I designed an AI-powered model to forecast solar panel energy production and optimize the scheduling of industrial and household machines, with the goal of reducing energy waste. This project, developed as part of the AI for Social Good initiative, allowed me to apply AI to sustainability challenges and explore how intelligent systems can create tangible social impact.
+          I designed an AI-powered model to forecast solar panel energy production and optimize the scheduling of industrial and household machines, with the goal of reducing energy waste. 
+          This project, developed as part of the AI for Social Good initiative, allowed me to apply AI to sustainability challenges and explore how intelligent systems can create tangible social impact.
 
       - layout: right
         title: Temporal Evolution of Search Engines
@@ -151,7 +161,9 @@ content:
             icon: fab fa-github
             url: github.com/FraVisox/RACOON-Search-Engine
         description: | # this will include new lines to allow paragraphs
-          I developed a custom search engine designed to handle the temporal evolution of data and user queries. By incorporating techniques like query expansion, relevance feedback, and reranking, I ensured that the system maintained high retrieval effectiveness over time. This project strengthened my skills in information retrieval and adaptive algorithm design.
+          As part of the LongEval track at the 2025 CLEF conference, I developed a custom search engine designed to handle the temporal evolution of data and user queries. 
+          By incorporating techniques like query expansion, relevance feedback, and reranking, I ensured that the system maintained high retrieval effectiveness over time. 
+          This project strengthened my skills in information retrieval and allowed me to contribute to cutting-edge research.
 
 
   #- title: Experience # Title for the section
@@ -176,7 +188,9 @@ content:
         caption: 2024 - Ongoing
         image: images/elicsir.png
         description: | # this will include new lines to allow paragraphs
-          I gained experience in academic research by reading, presenting, and writing about cutting-edge scientific literature. I also participated in presentations exploring the latest frontiers of Computer Science, which helped me stay at the forefront of emerging technologies and sharpen my ability to communicate complex ideas effectively.
+          I gained experience in academic research by reading, presenting, and writing about cutting-edge scientific literature, specifically in the field of Locality Sensitive Hashing. 
+          I also participated in presentations exploring the latest frontiers of Computer Science, which helped me stay at the forefront of emerging technologies and sharpen my ability to communicate complex ideas effectively.
+          Additionally, I create an Hive Game Agent that uses the classic minimax algorithm with alpha-beta pruning and an advanced learning agent inspired by AlphaZero, aiming to push strategic gameplay further.
 
       - layout: left
         title: Padua University
@@ -184,7 +198,10 @@ content:
         image: images/unipd.png
         sub_title: Master degree in Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          I have been focusing on High-Performance Computing and Big Data Analysis, achieving a perfect weighted average of 30/30. I actively participated in competitive programming competitions at the University of Padua, ranking among the top six students selected to represent the university at the 2024 edition of SWERC. Additionally, I co-authored an article on the temporal evolution of search engines, which was presented at the 2025 CLEF conference as part of the LongEval track. These experiences have strengthened both my technical expertise and my ability to contribute to research and competitive problem-solving at a high level.
+          I have been focusing on High-Performance Computing and Big Data Analysis, achieving a perfect weighted average of 30/30. 
+          I actively participated in competitive programming competitions, ranking among the top six students of the university, and was selected to represent the university at the 2024 edition of SWERC. 
+          Additionally, I co-authored an article on the temporal evolution of search engines, which was presented at the 2025 CLEF conference as part of the LongEval track. 
+          These experiences have strengthened both my technical expertise and my ability to contribute to research and competitive problem-solving at a high level.
 
       - layout: left
         title: Padua University
@@ -192,7 +209,8 @@ content:
         image: images/unipd.png
         sub_title: Bachelor degree in Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          I submitted my bachelor’s thesis to the EDBT 2026 conference and also published it on arXiv. I achieved a perfect weighted average of 30/30 and was honored with several merit-based scholarships, reflecting both my dedication to academic excellence and my commitment to advancing research.
+          I submitted my bachelor's thesis to the EDBT 2026 conference and also published it on <a href="https://arxiv.org/abs/2503.05260">arXiv</a>. 
+          I achieved a perfect weighted average of 30/30 and was honored with several merit-based scholarships, reflecting both my dedication to academic excellence and my commitment to advancing research.
 
   - title: Achievements # Title for the section
     layout: list # Type of content section (list/text)
@@ -200,39 +218,56 @@ content:
       - layout: left
         title: External excellence programs
         description: | # this will include new lines to allow paragraphs
-          I was honored to be selected for the 2024 edition of the Futuro Annunciato event for bachelor’s students and the 2024 Boost Summer School in Bologna. Building on these experiences, I was later chosen as one of 20 students to join the Scuola Ortogonale excellence program, supported by the ELICSIR Foundation, an opportunity that has further fueled my academic growth and ambitions.
+          I was honored to be selected for the 2024 edition of the Futuro Annunciato event for bachelor's students and the 2024 Boost Summer School in Bologna. 
+          Building on these experiences, I was later chosen as one of 20 students to join the Scuola Ortogonale excellence program, supported by the ELICSIR Foundation, an opportunity that has further fueled my academic growth and ambitions.
 
       - layout: left
         title: Publications and Conferences
         description: | # this will include new lines to allow paragraphs
-          I submitted my bachelor’s thesis to the EDBT 2026 conference and also published it on arXiv. During my master’s, I co-authored a paper on the temporal evolution of search engines, which was presented at the 2025 CLEF conference as part of the LongEval track. These experiences have allowed me to contribute to cutting-edge research while deepening my expertise in data and information retrieval.
+          I submitted my bachelor's thesis to the EDBT 2026 conference and also published it on <a href="https://arxiv.org/abs/2503.05260">arXiv</a>. During my master's, I co-authored a paper on the temporal evolution of search engines, which was presented at the 2025 CLEF conference as part of the LongEval track. 
+          These experiences have allowed me to contribute to cutting-edge research while deepening my expertise in data and information retrieval.
 
       - layout: left
         title: Hackathons and Competitions
         description: | # this will include new lines to allow paragraphs
-          I was selected as one of 30 students for the First Commit challenge by Bending Spoons, where I ranked among the top five finalists and gained valuable experience working in a high-pressure, fast-paced environment. I also participated in the IBM Hackathon at the University of Padua, where I honed my skills in effectively leveraging the SkillsBuild platform to tackle real-world challenges.
-          I actively participated in competitive programming competitions at the University of Padua, earning the opportunity to represent the university at the 2024 edition of SWERC. This experience strengthened my problem-solving skills and my ability to perform under pressure.
+          I was selected as one of 30 students for the First Commit challenge by Bending Spoons, where I ranked among the top five finalists and gained valuable experience working in a high-pressure, fast-paced environment. 
+          I also participated in the IBM Hackathon at the University of Padua, where I honed my skills in effectively leveraging the SkillsBuild platform to tackle real-world challenges.
+          I actively participated in competitive programming competitions at the University of Padua, earning the opportunity to represent the university at the 2024 edition of SWERC. 
+          These experiences strengthened my problem-solving skills and my ability to perform under pressure.
 
       - layout: left
         title: Mathematics and physics competitions
         description: | # this will include new lines to allow paragraphs
-          I participated in the regional editions of the Mathematics and Physics Olympiads in 2018 and 2019. Earlier, I competed in the National Mathematical Games in 2014 and 2015, securing first place in the C1 category in Vicenza in 2014 and ranking among the top 30 students in Milan in 2015. These experiences nurtured my problem-solving skills and my love for mathematics from an early age.
+          I participated in the regional editions of the Mathematics and Physics Olympiads in 2018 and 2019. 
+          Earlier, I competed in the National Mathematical Games in 2014 and 2015, securing first place in the C1 category in Vicenza in 2014 and ranking among the top 30 italian students in 2015. 
+          These experiences nurtured my problem-solving skills and my love for mathematics from an early age.
 
       - layout: left
         title: International mobility
         description: | # this will include new lines to allow paragraphs
-          I had the opportunity to study abroad for two weeks at Kingston University in London in 2018 and at Heriot-Watt University in Edinburgh in 2019. These experiences broadened my academic perspective and gave me an early taste of international learning and collaboration.
+          I had the opportunity to study abroad for two weeks at Kingston University in London in 2018 and at Heriot-Watt University in Edinburgh in 2019. 
+          These experiences broadened my academic perspective and gave me an early taste of international learning and collaboration.
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I have a strong foundation in programming and development, with experience in languages like C, C++, Java, Python, R, Kotlin, SQL, TypeScript, and JavaScript. 
+      I enjoy working on AI and machine learning projects, exploring deep learning, reinforcement learning, NLP, and clustering techniques. 
+      On the Big Data and cloud side, I have hands-on experience with Apache Spark, Hadoop, and parallel computing, and I'm comfortable designing high-performance computing solutions.
+
+      In terms of tools and development environments, I regularly work with Git, Docker, Maven, CMake, PostgreSQL, and editors like VS Code, IntelliJ, PyCharm, and Vim. 
+      I've also built web and mobile applications using Android (Kotlin), Firebase, Node.js, React, HTML, and CSS, and I have experience in optimization mathematics, including linear programming with Pyscipopt.
+
+      I am a native Italian speaker and fluent in English at a B2 level, currently working toward C1 proficiency. 
+      Beyond technical skills, I bring a strong work ethic, adaptability, and problem-solving mindset. 
+      I thrive in team environments, enjoy taking on leadership roles when needed, and quickly learn and apply new technologies and platforms to tackle challenges effectively.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I have a strong foundation in programming and development, with experience in languages like C, C++, Java, Python, R, Kotlin, SQL, TypeScript, and JavaScript. I enjoy working on AI and machine learning projects, exploring deep learning, reinforcement learning, NLP, and clustering techniques. On the Big Data and cloud side, I have hands-on experience with Apache Spark, Hadoop, and parallel computing, and I’m comfortable designing high-performance computing solutions.
-
-      In terms of tools and development environments, I regularly work with Git, Docker, Maven, CMake, PostgreSQL, and editors like VS Code, IntelliJ, PyCharm, and Vim. I’ve also built web and mobile applications using Android (Kotlin), Firebase, Node.js, React, HTML, and CSS, and I have experience in optimization mathematics, including linear programming with Pyscipopt.
-
-      I am a native Italian speaker and fluent in English at a B2 level, currently working toward C1 proficiency. Beyond technical skills, I bring a strong work ethic, adaptability, and problem-solving mindset. I thrive in team environments, enjoy taking on leadership roles when needed, and quickly learn and apply new technologies and platforms to tackle challenges effectively.
-
-      I love playing basketball, reading detective novels and playing board games.
+      I played basketball for 12 years, winning several provincial and regional championships and participating in various international tournaments.
+      Outside of sports, I'm passionate about detective fiction: Agatha Christie is my favorite author and was even the focus of my middle school thesis. 
+      I also enjoy strategy board games such as Catan, 7 Wonders, and Wingspan. Combining my love for games and programming, I developed a custom social deduction game inspired by Netflix's The Devil's Plan, which I titled The Virus Game.      
 
 # Footer
 footer_show_references: true

@@ -14,8 +14,10 @@
                 {% if item.layout == 'right' %}order-sm-1{% endif %}">
       <div class="item-text">
         <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
-        {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
-        {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+        {%- if item.sub_title -%}
+          <p class="subtitle"><b>{{ item.sub_title }}</b></p>
+        {%- endif -%}
+        {%- if item.caption -%}<p class="subtitle">{{ item.caption }}</p>{%- endif -%}
 
         {%- if item.link -%}
           {% include a.html href=item.link class="link" %}
