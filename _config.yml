@@ -8,6 +8,8 @@ version: 2
 # Personal info
 name: Francesco Visona'
 title: Computer Engineering Student
+description: Portfolio of Francesco Visona', computer engineering student. Check out my projects and interests.
+url: https://FraVisox.github.io
 email: visona.francesco@gmail.com
 
 # Dark Mode (true/false/never)
@@ -29,7 +31,7 @@ orcid_username: 0009-0004-4998-8766
 
 # About Section
 # about_title: About Me
-about_profile_image: images/Francesco_image.jpg
+about_profile_image: images/Francesco_image_low.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Francesco. I'm that person who gets genuinely excited when an algorithm I've been tweaking finally runs in half the time it used to: there's something deeply satisfying about watching efficiency emerge from chaos.
 
