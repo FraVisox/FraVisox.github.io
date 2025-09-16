@@ -31,7 +31,7 @@ orcid_username: 0009-0004-4998-8766
 
 # About Section
 # about_title: About Me
-about_profile_image: images/Francesco_image_low.jpg
+about_profile_image: images/Francesco_image_low.webp
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Francesco. I'm that person who gets genuinely excited when an algorithm I've been tweaking finally runs in half the time it used to: there's something deeply satisfying about watching efficiency emerge from chaos.
 
@@ -58,7 +58,7 @@ content:
         title: Hive Game Agent
         link: github.com/FraVisox/AntElligence
         link_text: Project Repository
-        image: images/hive.png
+        image: images/hive.webp
         additional_links:
           - title:  FraVisox/AntElligence
             icon: fab fa-github
@@ -72,7 +72,7 @@ content:
         title: Fair K-Center Clustering Algorithms
         link: github.com/FraVisox/FKC
         link_text: Project Repository
-        image: images/fkc.png
+        image: images/fkc.webp
         additional_links:
           - title:  FraVisox/FKC
             icon: fab fa-github
@@ -90,7 +90,7 @@ content:
         title: Chat-BasedWeb Application
         link: firstcommit.bendingspoons.com/
         link_text: Challenge Website
-        image: images/bending.png
+        image: images/bending.webp
         description: | # this will include new lines to allow paragraphs
           As part of the First Commit challenge organized by Bending Spoons, I developed a full-stack proof of concept for a chat-based web application, handling both frontend and backend development, adding extra features
           and debugging and optimizing the application. 
@@ -100,7 +100,7 @@ content:
         title: Temporal Evolution of Search Engines
         link: github.com/FraVisox/RACOON-Search-Engine
         link_text: Project Repository
-        image: images/clef.png
+        image: images/clef.webp
         additional_links:
           - title:  FraVisox/RACOON-Search-Engine
             icon: fab fa-github
@@ -114,7 +114,7 @@ content:
         title: Android App integrated with Firebase
         link: github.com/FraVisox/step_by_step
         link_text: Project Repository
-        image: images/android.png
+        image: images/android.webp
         additional_links:
           - title:  FraVisox/step_by_step
             icon: fab fa-github
@@ -128,7 +128,7 @@ content:
         title: AI-Based Solar Energy Predictor
         link: github.com/FraVisox/AI-Based-Solar-Energy-Predictor
         link_text: Project Repository
-        image: images/solar.jpg
+        image: images/solar.webp
         additional_links:
           - title:  FraVisox/AI-Based-Solar-Energy-Predictor
             icon: fab fa-github
@@ -141,7 +141,7 @@ content:
         title: NLP Zero-Shot Prompting for NER
         link: github.com/FraVisox/NLP-Project-NER
         link_text: Project Repository
-        image: images/ner.png
+        image: images/ner.webp
         additional_links:
           - title:  FraVisox/NLP-Project-NER
             icon: fab fa-github
@@ -156,7 +156,7 @@ content:
         title: Apache Spark Algorithm Development
         link: github.com/FraVisox/BigDataHw
         link_text: Project Repository
-        image: images/spark.png
+        image: images/spark.webp
         additional_links:
           - title:  FraVisox/BigDataHw
             icon: fab fa-github
@@ -170,7 +170,7 @@ content:
         title: Automated News Scraper and Analyzer
         link: github.com/FraVisox/eis-final
         link_text: Project Repository
-        image: images/guardian.png
+        image: images/guardian.webp
         additional_links:
           - title:  FraVisox/eis-final
             icon: fab fa-github
@@ -200,7 +200,7 @@ content:
       - layout: left
         title: Scuola Ortogonale Excellence Program
         caption: 2024 - Ongoing
-        image: images/elicsir.png
+        image: images/elicsir.webp
         description: | # this will include new lines to allow paragraphs
           This excellence program changed completely the way I look at Computer Science.
 
@@ -214,7 +214,7 @@ content:
       - layout: left
         title: Padua University
         caption: 2024 - Ongoing
-        image: images/unipd.png
+        image: images/unipd.webp
         sub_title: Master degree in Computer Engineering
         description: | # this will include new lines to allow paragraphs
           My master's journey has been defined by diving deep into High Performance Computing and Big Data Analysis, fields that fascinate me with their potential to solve real-world problems at scale. Maintaining a perfect 30/30 average feels rewarding, but what truly excites me is how each course builds upon the last, creating a comprehensive understanding of complex systems.
@@ -226,7 +226,7 @@ content:
       - layout: left
         title: Padua University
         caption: 2021 - 2024
-        image: images/unipd.png
+        image: images/unipd.webp
         sub_title: Bachelor degree in Computer Engineering
         description: | # this will include new lines to allow paragraphs
           My undergraduate years were where I discovered my love for research and academic rigor. 
