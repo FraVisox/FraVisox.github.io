@@ -11,7 +11,8 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}">
 
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="preload" href="/assets/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/main.css"></noscript>
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
 
 </head>
