@@ -5,7 +5,11 @@
       <div class="col-xs-12 col-sm-4 col-md-3 col-print-12
                   {% if item.layout == 'right' %}order-sm-2{% endif %}">
         <div class="item-image">
-          <img src="{{ item.image }}" loading="lazy" alt="{{ item.title | escape }}">
+          <img src="{{ item.image }}" 
+             loading="lazy" 
+             alt="{{ item.title | escape }}"
+             width="{{ item.image_width | default: 400 }}"
+             height="{{ item.image_height | default: 300 }}">
         </div>
       </div>
     {% endif %}
